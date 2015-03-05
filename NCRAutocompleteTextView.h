@@ -17,5 +17,6 @@
 @interface NCRAutocompleteTextView : NSTextView <NSTableViewDataSource, NSTableViewDelegate>
 
 @property (nonatomic, weak) id <NCRAutocompleteTableViewDelegate> delegate;
+@property (nonatomic, strong) NSPopover *autocompletePopover;
 
 @end
